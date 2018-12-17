@@ -17,7 +17,7 @@ function setDataFromChild(state = {dataFromChild: ''}, action) {
 }
 
 const dataPassApp = combineReducers({
-  setDataFromChild
+  sharedData: setDataFromChild
 });
 
 export default dataPassApp;

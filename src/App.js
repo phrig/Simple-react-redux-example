@@ -8,7 +8,7 @@ import {connect} from "react-redux";
 
 function mapStateToProps(state) {
   console.log("App:", state);
-  const { dataFromChild } = state.setDataFromChild;
+  const { dataFromChild } = state.sharedData;
   return { data : dataFromChild};
 }
 
